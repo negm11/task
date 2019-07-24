@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+	<title>
+	Task
+    </title>
+</head>
+<body>
+
+ 
+  
+   
+
+<header class="container-fluid">
+
+ <img class="asa" src="img/a.png" > 
+ <img class="aqa" src="img/c.png" > 
+       
+</header>
+
+
+<form>
+  <h2>Create New Course</h2>
+
+  <div class="form-row">
+    
+    <label for="inputAddress">Name</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="name">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Title</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="title">
+  </div>
+      <div class="form-group">
+    <label for="inputAddress2">Category</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="category">
+  </div>
+  <div class="re">
+    <label for="inputAddress2">Description</label>
+  <textarea name="editor1"></textarea>
+       <script>
+            CKEDITOR.replace ( 'editor1' );
+        </script>
+  </div>
+  <div>
+    <label>Requirment</label>
+  <textarea name="editor2"></textarea>
+       <script>
+            CKEDITOR.replace ( 'editor2' );
+        </script>
+  </div>
+     <div class="form-group">
+    <label for="inputAddress2">Price</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Price">
+  </div>
+  </div>
+   <div class="form-group">
+    <label for="inputAddress2">Discount</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Discount">
+  </div>
+  </div>
+   <div class="form-group">
+    <label for="inputAddress2">Discount Type</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Discount Type">
+  </div>
+  </div>
+  <p>Active</p>
+  <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1"></label>
+</div>
+  
+  <p class="ha">course image</p>
+  <div class="asal">
+  <div class="input-group mb-3">
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile02">
+    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02"></label>
+  </div>
+  </div><br>
+</div>
+  <button   type="submit" class="btn btn-primary">create</button>
+</form>
+
+</body>
